@@ -1,5 +1,2 @@
-    function coordinate(event) {
-        let x = event.clientX;
-        let y = event.clientY;
-        console.log(x,y)
-    }
+onmousemove = function(e){console.log("mouse location:", e.clientX, e.clientY)}
+
